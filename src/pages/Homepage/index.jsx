@@ -13,7 +13,8 @@ export default function HomepagePage() {
       <div className="flex flex-col items-start justify-start w-full gap-[70px] bg-white-A700">
         <div className="flex flex-col items-center justify-start w-full gap-[54px]">
           <header className="flex flex-row sm:flex-col justify-between items-center w-full p-[15px] sm:gap-10">
-            <Img src="images/img_group_642.svg" alt="image" className="h-[50px] ml-[149px] md:ml-5" />
+            {/* <Img src="images/img_group_642.svg" alt="image" className="h-[50px] ml-[149px] md:ml-5" /> */}
+            <h1 className="h-[50px] ml-[149px] md:ml-5 font-black text-3xl">MergeSoft</h1>
             <div className="flex flex-row justify-between items-start w-[30%] sm:w-full mr-[166px] md:mr-5">
               <div className="flex flex-col items-center justify-start w-[12%] gap-2">
                 <Heading as="h6" className="!text-red-400_01 text-center">
